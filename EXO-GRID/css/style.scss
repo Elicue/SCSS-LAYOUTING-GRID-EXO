@@ -1,0 +1,147 @@
+body, html {
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+div {
+    border: black solid 1px;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    .gauche {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 100vh;
+
+        .haut {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 40%;
+
+            .haut {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: 50%;
+
+                .gauche {
+                    width: 25%;
+                    text-align: center;
+                    height: 100%;
+                }
+
+                .centre {
+                    width: 25%;
+                    text-align: center;
+                    height: 100%;
+                }
+
+                .droite {
+                    width: 50%;
+                    text-align: center;
+                    height: 100%;
+                }
+            }
+
+            .bas {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+
+                .gauche {
+                    width: 75%;
+                    text-align: center;
+                    height: 100%
+                }
+
+                .droite {
+                    width: 25%;
+                    text-align: center;
+                    height: 100%
+                }
+            }
+        }
+
+        .bas {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 60%;
+
+            .haut {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: 65%;
+
+                .gauche {
+                    width: 50%;
+                    text-align: center;
+                    height: 100%;
+                }
+
+                .droite {
+                    width: 50%;
+                    text-align: center;
+                }
+            }
+
+            .bas {
+                width: 100%;
+                text-align: center;
+                height: 35%;
+            }
+        }
+    }
+
+    .droite {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .gauche {
+            width: 13,3%;
+            height: 100%;
+            text-align: center;
+        }
+
+        .droite {
+            display: flex;
+            flex-direction: column;
+            width: 26,6%;
+            height: 100%;
+
+            .haut {
+                width: 100%;
+                height: 40%;
+                text-align: center;
+            }
+
+            .bas {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: 60%;
+
+                .gauche {
+                    width: 50%;
+                    text-align: center;
+                }
+
+                .droite {
+                    width: 50%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

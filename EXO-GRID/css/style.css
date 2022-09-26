@@ -1,0 +1,126 @@
+body, html {
+  margin: 0;
+  height: 0;
+  box-sizing: border-box;
+}
+
+div {
+  border: black solid 1px;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+main .gauche {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100vh;
+}
+main .gauche .haut {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40%;
+}
+main .gauche .haut .haut {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+}
+main .gauche .haut .haut .gauche {
+  width: 25%;
+  text-align: center;
+  height: 100%;
+}
+main .gauche .haut .haut .centre {
+  width: 25%;
+  text-align: center;
+  height: 100%;
+}
+main .gauche .haut .haut .droite {
+  width: 50%;
+  text-align: center;
+  height: 100%;
+}
+main .gauche .haut .bas {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+main .gauche .haut .bas .gauche {
+  width: 75%;
+  text-align: center;
+  height: 100%;
+}
+main .gauche .haut .bas .droite {
+  width: 25%;
+  text-align: center;
+  height: 100%;
+}
+main .gauche .bas {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60%;
+}
+main .gauche .bas .haut {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 65%;
+}
+main .gauche .bas .haut .gauche {
+  width: 50%;
+  text-align: center;
+  height: 100%;
+}
+main .gauche .bas .haut .droite {
+  width: 50%;
+  text-align: center;
+}
+main .gauche .bas .bas {
+  width: 100%;
+  text-align: center;
+  height: 35%;
+}
+main .droite {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+main .droite .gauche {
+  width: 13, 3%;
+  height: 100%;
+  text-align: center;
+}
+main .droite .droite {
+  display: flex;
+  flex-direction: column;
+  width: 26, 6%;
+  height: 100%;
+}
+main .droite .droite .haut {
+  width: 100%;
+  height: 40%;
+  text-align: center;
+}
+main .droite .droite .bas {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 60%;
+}
+main .droite .droite .bas .gauche {
+  width: 50%;
+  text-align: center;
+}
+main .droite .droite .bas .droite {
+  width: 50%;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
