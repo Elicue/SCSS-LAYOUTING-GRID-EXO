@@ -1,0 +1,138 @@
+body, html {
+    margin: 0;
+    height: 0;
+    box-sizing: border-box;
+}
+
+div {
+    border: black solid 1px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+    .gauche {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        height: 100vh;
+
+        .haut {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 40%;
+            margin-bottom: 1px;
+
+            .haut {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: 50%;
+
+                .gauche {
+                    width: 25%;
+                    height: 100%;
+                }
+
+                .centre {
+                    width: 25%;
+                    height: 100%;
+                }
+
+                .droite {
+                    width: 50%;
+                    height: 100%;
+                }
+            }
+
+            .bas {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+
+                .gauche {
+                    width: 75%;
+                    height: 100%
+                }
+
+                .droite {
+                    height: 100%
+                }
+            }
+        }
+
+        .bas {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 60%;
+
+            .haut {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: 65%;
+
+                .gauche {
+                    width: 50%;
+                    height: 100%;
+                }
+
+                .droite {
+                    width: 50%;
+                }
+            }
+
+            .bas {
+                width: 100%;
+                height: 35%;
+            }
+        }
+    }
+
+    .droite {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+
+        .gauche {
+            width: 40%;
+            height: 100%;
+        }
+
+        .droite {
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            height: 100%;
+
+            .haut {
+                width: 100%;
+                height: 40%;
+            }
+
+            .bas {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: 60%;
+
+                .gauche {
+                    width: 50%;
+                }
+
+                .droite {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}

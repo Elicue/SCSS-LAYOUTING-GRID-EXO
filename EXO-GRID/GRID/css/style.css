@@ -1,0 +1,20 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  grid-area: var(--grid-area);
+  display: grid;
+  place-items: center;
+  border: 1px solid black;
+}
+
+section {
+  display: grid;
+  grid-template-areas: "a b c c d e e" "f f f g d e e" "h h i i d k l" "h h i i d k l" "j j j j d k l";
+  grid-auto-columns: 1fr;
+  gap: 2px;
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */

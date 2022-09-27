@@ -1,0 +1,117 @@
+body, html {
+  margin: 0;
+  height: 0;
+  box-sizing: border-box;
+}
+
+div {
+  border: black solid 1px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+main .gauche {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100vh;
+}
+main .gauche .haut {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 40%;
+  margin-bottom: 1px;
+}
+main .gauche .haut .haut {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 50%;
+}
+main .gauche .haut .haut .gauche {
+  width: 25%;
+  height: 100%;
+}
+main .gauche .haut .haut .centre {
+  width: 25%;
+  height: 100%;
+}
+main .gauche .haut .haut .droite {
+  width: 50%;
+  height: 100%;
+}
+main .gauche .haut .bas {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+main .gauche .haut .bas .gauche {
+  width: 75%;
+  height: 100%;
+}
+main .gauche .haut .bas .droite {
+  height: 100%;
+}
+main .gauche .bas {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60%;
+}
+main .gauche .bas .haut {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 65%;
+}
+main .gauche .bas .haut .gauche {
+  width: 50%;
+  height: 100%;
+}
+main .gauche .bas .haut .droite {
+  width: 50%;
+}
+main .gauche .bas .bas {
+  width: 100%;
+  height: 35%;
+}
+main .droite {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+main .droite .gauche {
+  width: 40%;
+  height: 100%;
+}
+main .droite .droite {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  height: 100%;
+}
+main .droite .droite .haut {
+  width: 100%;
+  height: 40%;
+}
+main .droite .droite .bas {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 60%;
+}
+main .droite .droite .bas .gauche {
+  width: 50%;
+}
+main .droite .droite .bas .droite {
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
